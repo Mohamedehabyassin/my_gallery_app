@@ -118,7 +118,7 @@ class LogInScreen extends StatelessWidget {
           child: Image.asset("assets/images/love_photograph.png"),
         ),
         Positioned(
-          top: mediaQuery.height / 5.3,
+          top: mediaQuery.height / 5,
           right: mediaQuery.width / 4,
           left: mediaQuery.width / 4,
           child: SizedBox(
@@ -127,17 +127,17 @@ class LogInScreen extends StatelessWidget {
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     color: Colors.black54,
-                    fontSize: 55,
+                    fontSize: 45,
                     fontWeight: FontWeight.bold)),
           ),
         ),
         Positioned(
-            top: mediaQuery.height / 2.9,
+            top: mediaQuery.height / 2.5,
             left: mediaQuery.width / 11,
             right: mediaQuery.width / 11,
             child: Container(
               //  width: mediaQuery.width - 50,
-              height: mediaQuery.height / 2.8,
+              height: mediaQuery.height / 2.2,
               decoration: BoxDecoration(
                 color: const Color.fromRGBO(255, 255, 255, 0.4),
                 borderRadius: BorderRadius.circular(20),

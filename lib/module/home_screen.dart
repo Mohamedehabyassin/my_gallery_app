@@ -40,17 +40,17 @@ class HomeScreen extends StatelessWidget {
                       colorBlendMode: BlendMode.modulate),
                 )),
             Positioned(
-                top: mediaQuery.height * 0.04,
+                top: mediaQuery.height * 0.03,
                 left: mediaQuery.width * 0.1,
                 child: SizedBox(
-                  width: mediaQuery.width * 0.30,
+                  width: mediaQuery.width * 0.40,
                   child: const Text(
                     "Welcome Mina",
                     style: TextStyle(fontSize: 28, color: Colors.black87),
                   ),
                 )),
             Positioned(
-                top: mediaQuery.height * 0.04,
+                top: mediaQuery.height * 0.03,
                 right: mediaQuery.width * 0.1,
                 child: SizedBox(
                   width: mediaQuery.width * 0.10,
@@ -142,7 +142,7 @@ class HomeScreen extends StatelessWidget {
                                             ),
                                             padding: const EdgeInsets.all(15),
                                             height: 60,
-                                            width: 160,
+                                            width: 190,
                                             child: GestureDetector(
                                               child: Row(
                                                 mainAxisAlignment:
@@ -182,7 +182,7 @@ class HomeScreen extends StatelessWidget {
                                             ),
                                             padding: const EdgeInsets.all(15),
                                             height: 60,
-                                            width: 160,
+                                            width: 190,
                                             child: GestureDetector(
                                               child: Row(
                                                 mainAxisAlignment:
